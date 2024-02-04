@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 469.34 704.8">
+    <defs>
+        <linearGradient id="a" x1="473.58" y1="637.31" x2="942.56" y2="168.33"
+            gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#4c64f5" />
+            <stop offset="0.5" stop-color="#5c61ff" />
+            <stop offset="1" stop-color="#be4bdb" />
+        </linearGradient>
+    </defs>
+    <title>logo</title>
+    <path
+        d="M809.33,94.52V206.65L696.5,263.07V150.93ZM696.5,388.61V500.73l112.83-56.42V332.19Zm0,237.66V738.4L809.33,682V569.86ZM576.21,214.08V326.21L689,382.63V270.5ZM577.67,451V563.15L690.5,619.56V507.44ZM458.83,272.77V384.9l112.84,56.41V329.19ZM577.67,569.86V682L690.5,738.4V626.27ZM458.83,510.44V622.56L571.67,679V566.86ZM577.67,451V563.15L690.5,619.56V507.44ZM815.33,210.35V322.48l112.84-56.42V153.94Zm0,237.67V560.15l112.84-56.42V391.61Zm0,118.84V679l112.84-56.42V510.44ZM693.5,33.6,581.38,89.67,693.5,145.73,805.62,89.67Z"
+        transform="translate(-458.83 -33.6)" style="fill:url(#a)" />
+</svg>

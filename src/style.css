@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: iransans;
+  src: url(/dist/fonts/IRANSansX-Regular.woff2);
+  src: url(/dist/fonts/IRANSansX-Regular.woff);
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: iransans;
+  src: url(/dist/fonts/IRANSansX-Light.woff2);
+  src: url(/dist/fonts/IRANSansX-Light.woff);
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: iransans;
+  src: url(/dist/fonts/IRANSansX-Bold.woff2);
+  src: url(/dist/fonts/IRANSansX-Bold.woff);
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: iransans;
+  src: url(/dist/fonts/IRANSansX-Medium.woff2);
+  src: url(/dist/fonts/IRANSansX-Medium.woff);
+  font-weight: 500;
+  font-display: swap;
+}
