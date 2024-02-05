@@ -17,7 +17,7 @@ const swiper = new Swiper(".swiper", {
       spaceBetween: 10,
     },
     768: {
-      slidesPerView: 4,
+      slidesPerView: 3,
       spaceBetween: 10,
     },
   },
@@ -33,6 +33,25 @@ const swiper = new Swiper(".swiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  autoplay: {
+    delay: 3000,
+  },
 
   // And if we need scrollbar
+});
+const btnScrollTo = Array.from(document.querySelectorAll(".btn--scroll-to"));
+const article = document.querySelector("#section--article");
+const contract = document.querySelector("#section--contract");
+const tutorial = document.querySelector("#section--tutorial");
+const sectionMap = new Map([
+  ["section--article", article],
+  ["section--contract", contract],
+  ["section--tutorial", tutorial],
+]);
+btnScrollTo.forEach((element) => {
+  element.addEventListener("click", function (e) {
+    sectionMap
+      .get(element.dataset.scrollto)
+      .scrollIntoView({ behavior: "smooth" });
+  });
 });

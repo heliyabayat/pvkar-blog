@@ -1,89 +1,46 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="fa" dir="rtl" data-theme="bumblebee">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/dist/css/style.css" />
     <title>Document</title>
   </head>
-  <body>
-    <header class="bg-base-100 z-20 fixed right-0 left-0">
+  <body class="pt-[80px]">
+    <header
+      class="navbar bg-base-100 z-20 fixed right-0 left-0 top-0 shadow-sm"
+    >
       <!--nav-->
       <div class="container">
         <div class="navbar">
           <div class="navbar-start">
-            <div class="dropdown">
-              <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M4 6h16M4 12h16M4 18h7"
-                  />
-                </svg>
-              </div>
-              <ul
-                tabindex="0"
-                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
-              >
-                <li><a href="/detail-post-page.html">بلاگ مصالح</a></li>
-                <li><a>بلاگ مهندسی</a></li>
-                <li><a>بلاگ پیمانکاری</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="navbar-center">
-            <a class="btn btn-ghost text-xl">پی‌وی‌کار</a>
-          </div>
-          <div class="navbar-end">
-            <button class="btn btn-ghost btn-circle">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                />
-              </svg>
-            </button>
-            <div>
-              <a href="/"
-                ><img class="w-7" src="/dist/images/logo.svg" alt="logo"
-              /></a>
-            </div>
+            <a class="btn btn-ghost text-xl"
+              ><img class="w-7" src="/dist/images/logo.svg" alt="" />
+              <span>پی وی کار</span>
+            </a>
+
+            <a class="px-4 py-2 hover:bg-base-200 rounded-xl" href="/"
+              >مقاله‌ها</a
+            >
+            <a class="px-4 py-2 hover:bg-base-200 rounded-xl" href=""
+              >آموزش‌ها</a
+            >
+            <a class="px-4 py-2 hover:bg-base-200 rounded-xl" href=""
+              >قراردادها</a
+            >
           </div>
         </div>
       </div>
     </header>
     <!--hero-->
-    <section class="mb-7">
-      <div
-        class="hero min-h-screen bg-gradient-to-r from-sky-500 to-indigo-800"
-      >
-        <div class="hero-content text-center text-neutral-content">
-          <div class="max-w-md">
-            <h1 class="mb-5 text-6xl font-bold">عنوان مقاله و عکس</h1>
-          </div>
-        </div>
+    <section class="mb-7 py-7 bg-primary text-primary-content text-center">
+      <div class="container">
+        <h1 class="text-4xl font-bold">عنوان مقاله و عکس</h1>
       </div>
     </section>
     <!--text-->
     <div class="container">
-      <article class="px-7 max-w-[100ch] mx-auto">
-        <h2 class="text-2xl mb-8 font-bold text-right">عنوان</h2>
+      <article class="px-7 max-w-[100ch] mx-auto text-neutral">
         <p class="text-lg font-medium">
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
           استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
@@ -149,32 +106,10 @@
         </p>
       </article>
     </div>
+
     <!--footer-->
-    <footer class="footer p-10 bg-base-200 text-base-content mt-7">
-      <aside>
-        <img class="w-12" src="/dist/images/logo.svg" alt="" />
-        <p>ACME Industries Ltd.<br />Providing reliable tech since 1992</p>
-      </aside>
-      <nav>
-        <h6 class="footer-title">Services</h6>
-        <a class="link link-hover">Branding</a>
-        <a class="link link-hover">Design</a>
-        <a class="link link-hover">Marketing</a>
-        <a class="link link-hover">Advertisement</a>
-      </nav>
-      <nav>
-        <h6 class="footer-title">Company</h6>
-        <a class="link link-hover">About us</a>
-        <a class="link link-hover">Contact</a>
-        <a class="link link-hover">Jobs</a>
-        <a class="link link-hover">Press kit</a>
-      </nav>
-      <nav>
-        <h6 class="footer-title">Legal</h6>
-        <a class="link link-hover">Terms of use</a>
-        <a class="link link-hover">Privacy policy</a>
-        <a class="link link-hover">Cookie policy</a>
-      </nav>
+    <footer class="p-10 text-base-content mt-7">
+      <p class="text-center">حقوق تمام محتوا برای پی وی کار محفوظ است.</p>
     </footer>
   </body>
 </html>

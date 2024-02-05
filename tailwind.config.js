@@ -14,5 +14,6 @@ module.exports = {
   plugins: [require("daisyui")],
   daisyui: {
     rtl: true,
+    themes: ["bumblebee", "dark", "luxury", "winter", "coffee", "night"],
   },
 };
